@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class LMJPageControl: UIView {
+open class LMJPageControl: UIView {
     fileprivate var _offsetLeft: Float!      = 0
     fileprivate var _offsetRight: Float!     = 0
     fileprivate var _pointWidth: Float!      = 5.0
@@ -29,11 +29,11 @@ class LMJPageControl: UIView {
         super.init(frame: frame)
         reloadControl()
     }
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         reloadControl()
     }
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         reloadPointsLayerout()
     }
@@ -130,7 +130,7 @@ class LMJPageControl: UIView {
     }
     
     
-    var offsetLeft: Float {
+    public var offsetLeft: Float {
         get {
             return _offsetLeft
         }
@@ -139,7 +139,7 @@ class LMJPageControl: UIView {
             reloadPointsLayerout()
         }
     }
-    var offsetRight: Float {
+    public var offsetRight: Float {
         get {
             return _offsetRight
         }
@@ -149,7 +149,7 @@ class LMJPageControl: UIView {
         }
     }
     
-    var pointWidth: Float {
+    public var pointWidth: Float {
         get {
             return _pointWidth
         }
@@ -159,7 +159,7 @@ class LMJPageControl: UIView {
         }
     }
     
-    var normalColor: UIColor {
+    public var normalColor: UIColor {
         get {
             return _normalColor
         }
@@ -169,7 +169,7 @@ class LMJPageControl: UIView {
             reloadPointsStyle()
         }
     }
-    var selectedColor: UIColor {
+    public var selectedColor: UIColor {
         get {
             return _selectedColor
         }
@@ -180,7 +180,7 @@ class LMJPageControl: UIView {
         }
     }
     
-    var normalImg: UIImage? {
+    public var normalImg: UIImage? {
         get {
             return _normalImg
         }
@@ -190,7 +190,7 @@ class LMJPageControl: UIView {
             reloadPointsStyle()
         }
     }
-    var selectedImg: UIImage? {
+    public var selectedImg: UIImage? {
         get {
             return _selectedImg
         }
@@ -201,7 +201,7 @@ class LMJPageControl: UIView {
         }
     }
     
-    var pageCount: UInt {
+    public var pageCount: UInt {
         get {
             return _pageCount
         }
@@ -210,7 +210,7 @@ class LMJPageControl: UIView {
             reloadControl()
         }
     }
-    var currentPage: UInt {
+    public var currentPage: UInt {
         get {
             return _currentPage
         }

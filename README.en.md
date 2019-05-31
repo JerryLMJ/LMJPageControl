@@ -25,10 +25,13 @@
 `pod 'LMJPageControl'`                  
 
 * Manual import:                
-    * Drag All files in the `LMJPageControl` folder to project                      
+    * Drag All files in the `LMJPageControl` folder to project              
 
 
-## Update log                              
+## Update log              
+- **2019.5.31（2.0.1）：**            
+Fix the import problem.                  
+
 - **2019.5.31（2.0.0）：**                                      
 The new 2.0 version is here! 🎉 🎉 🎉                     
 The update increases the installation of cocoapods and improves the file structure of the demo module as well as the new Chinese and English documents.                 
