@@ -32,8 +32,9 @@
 - **2019.5.31（2.0.0）：**                                      
 The new 2.0 version is here! 🎉 🎉 🎉                     
 The update increases the installation of cocoapods and improves the file structure of the demo module as well as the new Chinese and English documents.                 
-Optimized control property Settings.                      
+Optimized control property Settings.            
+                
 - **2016.1.22（1.0.0）：**                               
-Given the width and height of the control, two methods of initializing the control are given:            
+Given the width and height of the control, two methods of initializing the control are given:          
 1. Initialize the controller by normal/selected image                 
 2. Initialize the controller by using the normal/selected color                                            
