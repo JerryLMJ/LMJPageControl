@@ -36,5 +36,5 @@ Optimized control property Settings.
                 
 - **2016.1.22（1.0.0）：**                               
 Given the width and height of the control, two methods of initializing the control are given:          
-1. Initialize the controller by normal/selected image                 
-2. Initialize the controller by using the normal/selected color                                            
+1、Initialize the controller by normal/selected image                 
+2、Initialize the controller by using the normal/selected color                                            
