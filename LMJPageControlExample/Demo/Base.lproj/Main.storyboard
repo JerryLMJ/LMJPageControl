@@ -31,7 +31,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ip-Rf-F3I">
-                                <rect key="frame" x="10" y="752" width="394" height="100"/>
+                                <rect key="frame" x="10" y="562" width="394" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sliding View Effect &lt;----&gt; 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="117-aq-kkM" userLabel="滑动看效果 &lt;----&gt;">
                                         <rect key="frame" x="394" y="0.0" width="394" height="100"/>
@@ -108,12 +108,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8ip-Rf-F3I" secondAttribute="bottom" constant="200" id="Ctx-8V-pgt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8ip-Rf-F3I" secondAttribute="trailing" constant="10" id="HS0-2W-HMi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XkK-eF-Nqo" secondAttribute="trailing" constant="30" id="Q00-uf-1qj"/>
                             <constraint firstItem="XkK-eF-Nqo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Ult-ue-zJi"/>
                             <constraint firstItem="XkK-eF-Nqo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="X69-dX-HBD"/>
                             <constraint firstItem="8ip-Rf-F3I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="f01-85-1Em"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8ip-Rf-F3I" secondAttribute="bottom" constant="10" id="k9p-Jc-Yhs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
