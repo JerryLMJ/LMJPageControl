@@ -28,6 +28,20 @@
     * Drag All files in the `LMJPageControl` folder to project              
 
 
+## Properties
+| Attribute | Description |
+| --- | ---
+| offsetLeft | left margin
+| offsetRight | right margin
+| pointWidth | dot size, default 5
+| normalColor | is not selected
+| selectedColor | selects the color
+| normalImg | icon is not selected
+| selectedImg | selects the icon
+| pageCount | pages
+| currentPage | current page
+
+
 ## Update log              
 - **2019.5.31（2.0.2）：**            
 Fix the import problem.                  

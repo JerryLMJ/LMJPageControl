@@ -26,6 +26,20 @@
 * 手动导入:             
     * 将 `LMJPageControl` 文件拖拽到工程中
     
+    
+## 属性
+| 属性 | 描述 |
+| --- | ---
+| offsetLeft | 左内边距
+| offsetRight | 右内边距
+| pointWidth | 圆点大小，默认5
+| normalColor | 未选中颜色
+| selectedColor | 选中颜色
+| normalImg | 未选中图标
+| selectedImg | 选中图标
+| pageCount | 页数
+| currentPage | 当前页数
+    
 
 ## 更新日志
 - **2019.5.31（2.0.2）：**            
